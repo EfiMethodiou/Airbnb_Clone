@@ -4,23 +4,27 @@ import SearchIcon from '@mui/icons-material/Search';
 import LanguageIcon from '@mui/icons-material/Language';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { Link } from "react-router-dom";
 
 
-function Header(){
-    return(
+function Header() {
+    return (
         <div className='header'>
-            <img className="header_icon"
-           src={require('./img/airbnb_logo.png')} alt=""
-            />
+            <Link to="/">
+                <img className="header_icon"
+                    src={require('./img/airbnb_logo.png')} alt="" />
+
+            </Link>
+
             <div className="header_center">
-                <input type="text"/>
-                <SearchIcon/>
+                <input type="text" />
+                <SearchIcon />
             </div>
             <div className="header_right">
                 <p>Become a host</p>
-                <LanguageIcon/>
-                <ExpandMoreIcon/>
-                <AccountCircleIcon/>
+                <LanguageIcon />
+                <ExpandMoreIcon />
+                <AccountCircleIcon />
 
             </div>
 

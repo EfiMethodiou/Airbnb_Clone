@@ -24,7 +24,8 @@
     background-color: white;
     font-weight: 900;
     text-transform: inherit;
-    color: #ff7779;
+    color: #ff7779;  
+    border-radius: 0;
     border-color: transparent;
 }
 .banner_search > .banner_searchButton:hover{
