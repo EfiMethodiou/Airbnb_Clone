@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import SearchPage from './SearchPage';
 
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
