@@ -5,7 +5,7 @@ function Footer(){
     return(
         <div className="footer">
             <p> © 2022 Airbnb Clone - this is a demo made by &nbsp;
-                 <a href="https://efimethodiou.com/" target="_blank">
+                 <a href="https://efimethodiou.com/" target="_blank" rel="noreferrer">
                     <img className="developer_icon" src={require('./img/footer_icon.png')} alt="" /></a>
             </p>
             <p>
